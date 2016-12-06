@@ -1,7 +1,6 @@
 FROM ubuntu:latest 
 MAINTAINER Bibin Wilson <bibin.w@hcl.com> 
 RUN apt-get update
-RUN apt-get -y upgrade
 RUN apt-get -y install apache2
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
