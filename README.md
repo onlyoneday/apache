@@ -1,7 +1,7 @@
 apache
 ======
 jenkins-shell
-<code>
+'''
 #!/bin/sh
 id
 set +e
@@ -30,4 +30,5 @@ sleep 5
   
 echo '>>> Starting new container'
 sudo docker run -p 3000:80 -d apache
-</code>
+
+'''
