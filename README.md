@@ -17,8 +17,8 @@ jenkins-shell
  if [ "$CID" != "" ];then
   sudo docker stop $CID
  fi
- echo '>>> Restarting docker'
- sudo service docker restart
+ #echo '>>> Restarting docker'
+ #sudo service docker restart
  sleep 5
   
  echo '>>> Starting new container'
